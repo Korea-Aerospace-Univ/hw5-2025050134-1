@@ -3,7 +3,7 @@
 int main(void) {
     
     int N;
-    int found = 0;
+    bool found = 0;
     
     scanf("%d", &N);
 
