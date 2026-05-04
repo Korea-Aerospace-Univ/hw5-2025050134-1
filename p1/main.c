@@ -3,7 +3,7 @@
 int main(void) {
     
     int N;
-    bool found = 0;
+    bool found = false;
     
     scanf("%d", &N);
 
@@ -15,14 +15,14 @@ int main(void) {
                     
                     if (c < a || c < b) {
                         printf("%d %d %d\n", a, b, c);
-                        found = 1;
+                        found = true;
                     }
                 }
             }
         }
     }
 
-    if (found == 0) {
+    if (!found) {
         printf("none\n");
     }
 
